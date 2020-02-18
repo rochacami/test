@@ -1,0 +1,62 @@
+
+body
+{
+  background-color: #f0f0f0;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color: rgb(77, 74, 226)
+}
+
+.h3 {
+  font-family: 'Oswald', sans-serif;
+  color: rgb(24, 28, 124)
+}
+
+.container {
+ background-color: white;
+ margin: auto;
+ margin-bottom: 40px;
+ padding: 50px;
+ width: 600px;
+}
+
+.address {
+  display: table;
+  margin: 0 auto;
+  margin-top: 3px;
+  margin-bottom: 80px;
+}
+
+.unordered li {
+  color: gray;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.unordered li a {
+  color: #7ae4f2;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.unordered li a:hover {
+  color: blue;
+}
+
+.unordered {
+  display: inline;
+  margin: 40px;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+}
+
+.Contact {
+  margin: auto;
+}

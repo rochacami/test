@@ -2,22 +2,27 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
     <title>Camila's Resumé</title>
     <meta name="author" content="Camila Rocha">
     <meta name="description" content="HTML Resumé">
     <meta name="keywords" content="HTML, resume, resumé, CV, hoja de vida, experience">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <header>
-      <h1>Camila Rocha</h1>
-      <link rel="stylesheet" href="/css/master.css">
-    </header>
+
+
+<div class="container">
 <section>
+  <h1>Camila Rocha</h1>
   <article>
     <img src="Images/Camila_Headshot.jpg" alt="Camila Rocha">
-    <h3>About Me</h3>
+    <h3 class="h3">About Me</h3>
     <!-- this is a paragraph about me -->
-      <p>I was born in Miami and have lived here for the majority of my life.
+      <p class="text">I was born in Miami and have lived here for the majority of my life.
       <br>Before Miami, I lived in <em>Bolivia</em> for two years and <em>Argentina</em> for two years as well.
       <br>Having lived in different countries and now living in a culturally diverse area has most
       <br>definitely influenced the way I view the world. I believe that what makes cultures
@@ -26,27 +31,25 @@
       <br>have a purpose in this world and I am here to find that for myself. </p>
   </article>
 </section>
-<section>
+</div>
+
+<div class="container">
   <h2>Education</h2>
-      <ul>
+      <ul class="text">
         <li>University of Miami 2020</li>
         <li>Suffield Academy 2015</li>
       </ul>
-</section>
 
-<section>
   <h2>Work Experience</h2>
-    <ul>
+    <ul class="text">
       <li>BBDO New York June - August 2019</li>
       <li>BBDO Santo Domingo May 2019</li>
       <li>COWOCAT Barcelona 2018</li>
       <li>Burson Marsteller Miami 2017</li>
     </ul>
-</section>
 
-<section>
   <h2>Skills</h2>
-    <table>
+    <table class="text">
       <tr>
         <th>Photoshop</th>
         <th>Illustrator</th>
@@ -58,28 +61,32 @@
         <td>Proficient</td>
       </tr>
     </table>
-</section>
 
-<section>
   <h2>Interests</h2>
-    <ol>
+    <ol class="text">
       <li>Volleyball</li>
       <li>Graphic Design</li>
       <li>Creative Writing</li>
     </ol>
-</section>
+</div>
 
-<section>
-  <h2>Contact Info</h2>
-  <address>
-    <ul>
-      <li>Email: car265@miami.edi</li>
-      <li>Phone: 7869990134</li>
-      <li> <a href="https://www.linkedin.com/in/camila-rocha-67213a124/">LinkedIn</a> </li>
-        <li> <a href="https://www.camilarow.com/">Portfolio</a> </li>
-    </ul>
+<hr>
 
-  </address>
-</section>
+<footer>
+  <div class="address">
+
+    <h2>Contact Info</h2>
+    <address>
+      <ul class="unordered li">
+        <li class="unordered">Email: car265@miami.edi</li>
+        <li class="unordered">Phone: 7869990134</li>
+        <li class="unordered"> <a href="https://www.linkedin.com/in/camila-rocha-67213a124/">LinkedIn</a> </li>
+        <li class="unordered"> <a href="https://www.camilarow.com/">Portfolio</a> </li>
+      </ul>
+    </address>
+
+</div>
+</footer>
+
   </body>
 </html>
