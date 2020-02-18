@@ -3,43 +3,49 @@
 <html lang="en" dir="ltr">
 <!-- This is the head of my website -->
   <head>
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/Mobile.css">
+    <meta name="viewport" content="initial-scale=1">
     <meta charset="utf-8">
     <title>Basic HTML</title>
     <meta name="author" content="Camila Rocha">
     <meta name="description" content="Basic HTML Example">
     <meta name="keywords" content="HTML, JS, CSS, Basic Example">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <!-- something do here it will show there this is a comment cmd + / -->
+    <!-- this is a comment = cmd + / -->
     <header>
-      <nav>
-        <ul>
+      <nav class="navigation">
+        <ul class="unorderedlist">
           <li>   <a href="https://www.apple.com">Apple</a>     </li>
           <li>   <a href="https://www.savagex.com">Fenty</a>     </li>
           <li>   <a href="https://www.sephora.com/">Sephora</a>        </li>
         </ul>
       </nav>
     </header>
-    <section>
-
       <!-- to create sidebars -->
-      <aside >
-        <ol>
-          <li>item 1</li>
-          <li>item 2</li>
-          <li>item 3</li>
-        </ol>
-        <ul>
-          <li>item 1</li>
-          <li>item 2</li>
-          <li>item 3</li>
-        </ul>
-      </aside>
+    <aside class="sidebar">
+      <h3>SideBar</h3>
+      <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ol>
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ul>
+    </aside>
 
+
+  <div class="container">
+    <section>
+<h1>Title</h1>
        <!-- to create articles and posts, etc. -->
-      <article>
-        <h1>Title</h1>
+      <article class="article">>
         <h3>Subtitle</h3>
         <p>
           <!-- This is for best practices -->
@@ -56,8 +62,11 @@
             <img src="IMG/julio.png" alt="Photo of Julio">
       </article>
     </section>
+  </div>
 
-<section>
+
+<section
+    <h2>Title 2</h2>
   <address>
     <ul>
       <li>Name: Camila Rocha</li>

@@ -1,0 +1,74 @@
+
+/* this is a selector */
+ h1 {
+         font-family: 'Bebas Neue', cursive;
+}
+
+body {
+  background-color: rgb(233, 173, 225)
+}
+
+/* This is a class */
+ .container {
+   background-color: rgb(199, 171, 240);
+   width: 600px;
+   margin: auto;
+   padding: 50px;
+   box-shadow: 5px 10px 10px 10px rgb(63, 13, 107);
+   border-radius: 20px;
+ }
+
+.container h1 {
+  font-size: 60pt;
+}
+
+
+/* This is an ID */
+#julio {
+   background-color: rgb(35, 186, 201);
+   width: 400px;
+   margin: auto;
+ }
+
+.article h1 {
+   color: blue
+}
+
+.navigation {
+  display: table;
+  margin: 0 auto;
+  margin-top: 3px;
+  margin-bottom: 80px;
+}
+
+.unorderedlist {
+  padding-top: 20px
+}
+
+.unorderedlist li {
+  display: inline;
+  margin: 40px;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+  width: 10%;
+}
+
+.unorderedlist li a {
+  color: gray;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.unorderedlist li a:hover{
+  color: red;
+}
+.sidebar {
+  float: left;
+  background-color: rgb(199, 171, 240);
+  width: 10%;
+  margin: auto;
+  margin-left: 20px;
+  padding: 50px;
+  box-shadow: 5px 10px 10px 10px rgb(63, 13, 107);
+  border-radius: 20px;
+}
