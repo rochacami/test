@@ -8,6 +8,14 @@ h1 {
   font-family: 'Oswald', sans-serif;
 }
 
+.h1 {
+  border: solid;
+  border-color: rgb(102, 39, 204);
+  border-width: thick;
+  width: 125px;
+  padding-left: 6.5px;
+
+}
 h2 {
   font-family: 'Oswald', sans-serif;
   color: rgb(77, 74, 226)
