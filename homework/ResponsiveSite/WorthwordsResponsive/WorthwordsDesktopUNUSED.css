@@ -57,7 +57,6 @@ h1 {
 }
 
 
-
 .parallax {
   margin-top: 10vh;
   display: block;
@@ -86,13 +85,32 @@ h1 {
   text-decoration: none;
 }
 
-.divimg {
+.gridmain {
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  margin-top: 100px;
+
   display: grid;
-  grid-template-rows: 50% 50%;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "img img img img"
+                       "pa pa pa pa";
+
+  grid-template-rows: 60% 20%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
 }
 
-.it {
-  width: 50%;
-  height: 50vh;
+.gridmain img {
+
+  grid-area: img;
+  width: 200px;
+  height: 310px;
+
+}
+
+.gridMain p {
+  grid-area: pa;
+
+  font-style: normal;
+  font-family: 'Bebas Neue';
 }

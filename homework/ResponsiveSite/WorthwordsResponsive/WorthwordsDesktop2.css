@@ -1,0 +1,201 @@
+body {
+  background-color:rgb(251, 251, 251);
+}
+
+h1 {
+  font-family: 'Bebas Neue';
+  font-weight: bolder;
+  color: black;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  font-size: 70px;
+  z-index: 1000;
+}
+
+
+.navigation {
+  font-family: 'Bebas Neue';
+  text-align: center;
+  margin: auto;
+  z-index: 1000;
+
+}
+
+.unorderedlist {
+  padding-inline-start: 0px;
+}
+.unorderedlist li {
+  display: inline;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.unorderedlist li a {
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+
+}
+
+.unorderedlist li a:hover {
+  color: rgb(121, 127, 145);
+}
+.h2 {
+  font-family: 'Bebas Neue';
+  font-size: 55px;
+  text-align: center;
+  margin: auto;
+  padding-top: 150px;
+  padding-left: 200px;
+  padding-right: 200px;
+  color: white;
+
+}
+
+
+.parallax {
+  margin-top: 10vh;
+  display: block;
+  margin: auto;
+  height: 80vh;
+  /* YOU CAN ATTACH YOUR IMAGE TO THE BACKGROUND OF YOUR ELEMENTS */
+  background-image: url("../Images/bwbooks.jpg");
+  background-size: 100% auto;
+  /* THIS IS WHAT IT MAKES YOUR IMAGE FIXED TO THE BACKGROUND INSTEAD
+   OF MOVING WITH YOUR OTHER ELEMENTS */
+  background-attachment: fixed;
+  /* PLACE THE IMAGE IN THE MIDDLE */
+  background-position: top center;
+}
+
+.parallax2 {
+  margin-top: 10vh;
+  display: block;
+  margin: auto;
+  height: 20vh;
+  /* YOU CAN ATTACH YOUR IMAGE TO THE BACKGROUND OF YOUR ELEMENTS */
+  background-image: url("../Images/bwbooks.jpg");
+  background-size: 100% auto;
+  /* THIS IS WHAT IT MAKES YOUR IMAGE FIXED TO THE BACKGROUND INSTEAD
+   OF MOVING WITH YOUR OTHER ELEMENTS */
+  background-attachment: fixed;
+  /* PLACE THE IMAGE IN THE MIDDLE */
+  background-position: top center;
+}
+.footer {
+  font-family: 'Bebas Neue';
+  margin: auto;
+  padding-left: 400px;
+  padding-right: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.footer ul li {
+  display: inline;
+  text-decoration: none;
+}
+
+.gridmain {
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  margin-top: 100px;
+
+
+  display: grid;
+  grid-template-areas: "hea hea hea hea"
+                       "foo foo foo foo";
+
+  grid-template-rows: 60% 20%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gridmain div img {
+  grid-area: hea;
+  width: 200px;
+  height: 310px;
+  margin: auto;
+
+}
+
+
+.gridmain div p {
+  grid-area: foo;
+  text-align: center;
+  font-family: 'Bebas Neue';
+  margin: auto;
+  margin-top: 10px
+}
+
+.gridblog {
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  margin-top: 100px;
+
+
+  display: grid;
+  grid-template-areas: "hea hea hea "
+                       "foo foo foo ";
+
+  grid-template-rows: 60% 20%;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.gridblog div img {
+  grid-area: hea;
+  width: 200px;
+  height: 310px;
+  margin: auto;
+}
+
+.gridblog div p {
+  grid-area: foo;
+  font-family: 'Bebas Neue';
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.footerblog {
+  font-family: 'Bebas Neue';
+  margin: auto;
+  padding-left: 400px;
+  padding-right: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.footerblog ul li {
+  display: inline;
+  text-decoration: none;
+}
+
+.footerhome {
+  font-family: 'Bebas Neue';
+  margin: auto;
+  padding-left: 400px;
+  padding-right: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.footerhome ul li {
+  display: inline;
+  text-decoration: none;
+}
