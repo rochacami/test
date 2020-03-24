@@ -22,9 +22,8 @@ h1 {
 
 }
 
-.unorderedlist {
-  padding-inline-start: 0px;
-}
+
+
 .unorderedlist li {
   display: inline;
   margin: auto;

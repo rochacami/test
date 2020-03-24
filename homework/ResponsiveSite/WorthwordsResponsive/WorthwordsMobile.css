@@ -20,9 +20,7 @@ h1 {
 
 }
 
-.unorderedlist {
-  padding-inline-start: 0px;
-}
+
 
 .unorderedlist li {
   display: inline;
@@ -33,7 +31,6 @@ h1 {
   padding-right: 5px;
   text-decoration: none;
   text-align: center;
-  style: none;
 
 }
 
