@@ -117,13 +117,17 @@ h2 {
   text-align: center;
 }
 
+.finishedproductimages{
+  margin: auto;
+  padding-left: 300px;
+  padding-right: 300px;
+}
 
-
-.finishedproduct img {
+.finishedproductimages img {
   width: 200px;
   height: 310px;
   margin: auto;
-  margin-left: 280px;
+  padding: 50px;
 
 }
 
