@@ -1,0 +1,137 @@
+
+h1 {
+  font-family: 'Fredoka One';
+  font-size: 72px;
+  color: white;
+  margin: auto;
+  padding-top: 65px;
+  padding-left: 300px;
+  padding-right: 300px;
+  text-align: center;
+}
+.parallax {
+  margin-top: 10vh;
+  display: block;
+  margin: auto;
+  height: 45vh;
+  /* YOU CAN ATTACH YOUR IMAGE TO THE BACKGROUND OF YOUR ELEMENTS */
+  background-image: url("../img/Cocoa.jpg");
+  background-size: 100% auto;
+  /* THIS IS WHAT IT MAKES YOUR IMAGE FIXED TO THE BACKGROUND INSTEAD
+   OF MOVING WITH YOUR OTHER ELEMENTS */
+  background-attachment: fixed;
+  /* PLACE THE IMAGE IN THE MIDDLE */
+  background-position: top center;
+}
+.nav {
+  font-family: 'Fredoka One';
+  text-align: center;
+  margin: auto;
+  z-index: 1000;
+
+}
+
+.unorderedlist li {
+  display: inline;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.unorderedlist li a {
+  text-decoration: none;
+  color: rgb(70, 41, 17);
+}
+
+.unorderedlist li a:hover {
+  color: rgb(121, 127, 145);
+}
+
+.introduction {
+  font-family: 'Fredoka One';
+  font-size: 28px;
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: white;
+}
+
+.ingredients {
+ margin: auto;
+ padding-left: 200px;
+ padding-right: 200px;
+ margin-top: 10vh;
+ display: block;
+ margin: auto;
+ height: 45vh;
+ /* YOU CAN ATTACH YOUR IMAGE TO THE BACKGROUND OF YOUR ELEMENTS */
+ background-image: url("../img/Ingredients1.jpg");
+ background-size: 100% auto;
+ /* THIS IS WHAT IT MAKES YOUR IMAGE FIXED TO THE BACKGROUND INSTEAD
+  OF MOVING WITH YOUR OTHER ELEMENTS */
+ background-attachment: fixed;
+ /* PLACE THE IMAGE IN THE MIDDLE */
+ background-position: top center;
+}
+
+.unorderedlistING {
+  font-family: 'Fredoka One';
+  padding-top: 30px;
+  color: rgb(48, 46, 45);
+}
+
+.steps {
+  margin: auto;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 10vh;
+  display: block;
+  margin: auto;
+  height: 45vh;
+  /* YOU CAN ATTACH YOUR IMAGE TO THE BACKGROUND OF YOUR ELEMENTS */
+  background-image: url("../img/steps1.jpg");
+  background-size: 100% auto;
+  /* THIS IS WHAT IT MAKES YOUR IMAGE FIXED TO THE BACKGROUND INSTEAD
+   OF MOVING WITH YOUR OTHER ELEMENTS */
+  background-attachment: fixed;
+  /* PLACE THE IMAGE IN THE MIDDLE */
+  background-position: top center;
+}
+
+.orderedlistSTEPS{
+  font-family: 'Fredoka One';
+  padding-top: 75px;
+  color: rgb(48, 46, 45);
+}
+
+h2 {
+  font-family: 'Fredoka One';
+  font-size: 35px;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+.finishedproduct img {
+  width: 200px;
+  height: 310px;
+  margin: auto;
+  margin-left: 280px;
+
+}
+
+.footer {
+  font-family: 'Fredoka One';
+  font-size: 14px;
+  margin: auto;
+  padding-left: 400px;
+  padding-right: 400px;
+  text-align: center;
+  position: relative;
