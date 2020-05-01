@@ -1,0 +1,126 @@
+
+.unorderedlist {
+  margin: auto;
+  text-decoration: none;
+  text-align: center;
+  padding-bottom: 20px;
+  }
+
+.unorderedlist li {
+  font-family: 'Lexend Deca', sans-serif;
+  padding: 50px;
+  display: inline;
+  text-decoration: none;
+}
+
+
+.unorderedlist li a {
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+}
+
+.logo {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-left: 320px;
+  padding: 50px;
+}
+
+.parallax {
+  margin-top: 10vh;
+  display: block;
+  margin: auto;
+  height: 80vh;
+  /* YOU CAN ATTACH YOUR IMAGE TO THE BACKGROUND OF YOUR ELEMENTS */
+  background-image: url("../IMG/camizz.jpg");
+  background-size: 100% auto;
+  /* THIS IS WHAT IT MAKES YOUR IMAGE FIXED TO THE BACKGROUND INSTEAD
+   OF MOVING WITH YOUR OTHER ELEMENTS */
+  background-attachment: fixed;
+  /* PLACE THE IMAGE IN THE MIDDLE */
+  background-position: top center;
+  opacity: 90%;
+}
+
+.parallax h2 {
+  font-family: 'Lexend Deca', sans-serif;
+  margin: auto;
+  text-align: center;
+  font-size: 90px;
+  color: white;
+  padding-top: 15%;
+}
+
+.footer {
+  font-family: 'Lexend Deca', sans-serif;
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
+  color: rgb(180, 180, 180);
+  font-size: 14px;
+}
+
+.img {
+  width: 270px;
+  height: 370px;
+}
+
+.basicGrid {
+width: 90%;
+height: 90vh;
+margin: auto;
+margin-top: 50px;
+/* Here you will notice that is a more complex grid */
+display: grid;
+/* The templates areas will help us to distribute the cells from our grid in the order we want.
+You can name it as you like of course is always good to name it in a obvious way.  */
+grid-template-areas:  "hea hea hea"
+                      "para para para"
+                      "main main main"
+                                    ;
+
+grid-template-rows: 10% 50px 90%;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.basicGrid h2 {
+  grid-area: hea;
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
+  font-size: 32px;
+  margin: auto;
+
+}
+
+.basicGrid p {
+  grid-area: para;
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  margin: auto;
+}
+
+.basicGrid img {
+  grid-area: main;
+}
+
+.basicGrid div img {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.embed {
+  width: 100%;
+  height: 100vh;
+}
+
+.embed embed {
+  display: block;
+  padding: 25px;
+  margin: auto;
+  width: 70%;
+  height: 90vh;
+}
