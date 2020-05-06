@@ -1,4 +1,17 @@
 
+.h1 {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 90px;
+  display: inline;
+  color: rgb(189, 255, 0);
+  margin:auto;
+  text-align: center;
+
+}
+
+.h1 h1 {
+  margin-top: 20px;
+}
 .unorderedlist {
   margin: auto;
   text-decoration: none;
@@ -23,7 +36,7 @@
   width: 50%;
   height: 50%;
   margin: auto;
-  margin-left: 320px;
+  margin-left: 250px;
   padding: 50px;
 }
 
@@ -60,6 +73,7 @@
   color: rgb(180, 180, 180);
   font-size: 14px;
 }
+
 
 .img {
   width: 270px;
@@ -123,4 +137,21 @@ grid-template-columns: 1fr 1fr 1fr;
   margin: auto;
   width: 70%;
   height: 90vh;
+}
+
+.anim
+{
+  animation: anim 1.8s ease-out;
+  opacity: 1 !important;
+}
+
+@keyframes anim {
+  0%{
+    transform: translateY(150px) rotateY(30deg) skewY(-2deg);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px) rotateY(0deg) skewY(0);
+    opacity: 1;
+  }
 }
